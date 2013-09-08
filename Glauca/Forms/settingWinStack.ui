@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>settingStack</class>
+ <widget class="QStackedWidget" name="settingStack">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StackedWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <widget class="QWidget" name="mainPage">
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Downloads</string>
+    </property>
+    <widget class="QCheckBox" name="showDownloadRate">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Keep showing download rate in the dock</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="showDownloadBar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>211</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show the download quick Bar</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="createFolders">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>211</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Create different folders for Types</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fileTypeControl">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>20</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>File Types Control</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="headersControl">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>50</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Web Headers Control</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="homePageGB">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>383</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Use customed Start page instead of GlaucaStartPage</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <widget class="QComboBox" name="homePageUrlCombo">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>371</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>371</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="useBlankPage">
+        <property name="text">
+         <string>Blank Page</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="useCurrentPage">
+        <property name="text">
+         <string>Current Page</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="useLastSession">
+        <property name="text">
+         <string>Last Session</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>381</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Dock Related</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>181</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Set Mouse Moving Sensibility(1-100):</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="mouseSensibility">
+     <property name="geometry">
+      <rect>
+       <x>191</x>
+       <y>18</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="showSlider">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>141</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Quick View Slider</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="sortIconByTime">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>181</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sort Icons by added time</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="sortIconByChanged">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>181</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sort Icons by recently changed</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="sortDisabled">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>171</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Never Sort Icons</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dockThemeSelector">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>20</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Theme Selector</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="page">
+   <widget class="QGroupBox" name="quickSurfGB">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Enable Quick surf Mode</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Action to Call Out Surf Panel:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="qucikSurfCallOutCombo">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>20</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Left Double Click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>LeftClick+ Alt</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>LeftClick+Shift</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>LeftClick+Ctrl</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RightDoubleClick</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RightClick+Alt</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RightClick+Shift</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RightClick+Ctrl</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="hideControlBar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hide Control Buttons,location Bar,etc.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="notifierGB">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>381</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Enable Temp Notifier</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PopUp Notifier At</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="notifierPosition">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Left-Top</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Left-Buttom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Right-Top</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Right-Buttom</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>141</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>And Stay for Seconds(1-5s)</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="notifierStayTimeSpin">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>20</y>
+       <width>41</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="popUpWhenStarted">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>241</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PopUp when Loading Started</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="popUpWhenFinished">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>171</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PopUp When Loading Finished</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="popUpForCurrent">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>161</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Also For Current Tab</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="page_2">
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Tab Mouse Clicking behavior</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>171</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Left Click</string>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Double</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="leftDoubleAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>16</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="leftShiftAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>40</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>45</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shift+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>68</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ctrl+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="leftCtrlAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>64</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>12</x>
+        <y>90</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Alt+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="leftAltAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>88</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>20</y>
+       <width>171</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Right Click</string>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Double</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="rightDoubleAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>16</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="rightShiftAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>40</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>45</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shift+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>68</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ctrl+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="rightCtrlAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>64</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>12</x>
+        <y>90</y>
+        <width>46</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Alt+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="rightAltAct">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>88</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Add BookMark</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Private</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>151</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wheel Click</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_12">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>148</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lock</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Add BookMark</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Private</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Look 'n Feel</string>
+    </property>
+    <widget class="QCheckBox" name="showCloseBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>141</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Close Tab Button</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="showNewTabBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>131</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show New Tab Button</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="showAllTabBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>141</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show All Tab Button</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_12">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>20</y>
+       <width>201</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tab TransParency(Not Usable Now)</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="tabAutoResize">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>191</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Auto Resize Tab Length</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="darkerTabs">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>60</y>
+       <width>161</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Darker UnActivated Tabs</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="linkInNewTab">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Always Open Link In New Tabs</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="preventAutoTabCreating">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>281</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prevent WebSites from Automatically Creating Tabs</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CloseWinWhenLastTabClosed">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>290</y>
+      <width>201</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close Window When Last Tab Closed</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

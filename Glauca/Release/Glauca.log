@@ -1,0 +1,105 @@
+﻿Build started 2011/7/22 17:47:57.
+     1>Project "C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\Glauca\Glauca.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Glauca.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing GlaucaWebTab.h...
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IE:\Qt\4.7.0\include /I.\GeneratedFiles\Release /IE:\Qt\4.7.0\include\qtmain /IE:\Qt\4.7.0\include\QtCore /IE:\Qt\4.7.0\include\QtGui /IE:\Qt\4.7.0\include\QtXml /IE:\Qt\4.7.0\include\QtSql /IE:\Qt\4.7.0\include\QtNetwork /IE:\Qt\4.7.0\include\QtWebKit /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_WEBKIT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_GlaucaBookmarkService.cpp GeneratedFiles\Release\moc_GlaucaDownloadService.cpp GeneratedFiles\Release\moc_GlaucaHistoryService.cpp GeneratedFiles\Release\moc_GlaucaIconService.cpp GeneratedFiles\Release\moc_GlaucaTabAddon.cpp GeneratedFiles\Release\moc_GlaucaTabWidget.cpp GeneratedFiles\Release\moc_GlaucaTabs.cpp GeneratedFiles\Release\moc_GlaucaUrlAction.cpp GeneratedFiles\Release\moc_GlaucaWebTab.cpp GeneratedFiles\Release\moc_GlaucaWebView.cpp GeneratedFiles\Release\moc_MainWindow.cpp GeneratedFiles\Release\moc_locationBar.cpp GlaucaBookmarkService.cpp GlaucaDownloadService.cpp GlaucaDropInDialog.cpp GlaucaHistoryService.cpp GlaucaIconService.cpp GlaucaPlugins.cpp GlaucaQuickPanel.cpp GlaucaServices.cpp GlaucaTabAddon.cpp GlaucaTabPage.cpp GlaucaTabWidget.cpp GlaucaTabs.cpp GlaucaUrlAction.cpp GlaucaWebTab.cpp GlaucaWebView.cpp GlaucaWikiEditor.cpp MainWindow.cpp cookieJar.cpp locationBar.cpp main.cpp
+         moc_GlaucaBookmarkService.cpp
+         moc_GlaucaDownloadService.cpp
+         moc_GlaucaHistoryService.cpp
+         moc_GlaucaIconService.cpp
+         moc_GlaucaTabAddon.cpp
+         moc_GlaucaTabWidget.cpp
+         moc_GlaucaTabs.cpp
+         moc_GlaucaUrlAction.cpp
+         moc_GlaucaWebTab.cpp
+         moc_GlaucaWebView.cpp
+         moc_MainWindow.cpp
+         moc_locationBar.cpp
+         GlaucaBookmarkService.cpp
+         GlaucaDownloadService.cpp
+         GlaucaDropInDialog.cpp
+         GlaucaHistoryService.cpp
+         GlaucaIconService.cpp
+         GlaucaPlugins.cpp
+         GlaucaQuickPanel.cpp
+         GlaucaServices.cpp
+         Generating Code...
+         Compiling...
+         GlaucaTabAddon.cpp
+         GlaucaTabPage.cpp
+         GlaucaTabWidget.cpp
+         GlaucaTabs.cpp
+         GlaucaUrlAction.cpp
+         GlaucaWebTab.cpp
+         GlaucaWebView.cpp
+         GlaucaWikiEditor.cpp
+         MainWindow.cpp
+         cookieJar.cpp
+         locationBar.cpp
+         main.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\\Glauca.exe" /NOLOGO /LIBPATH:E:\Qt\4.7.0\lib qtmain.lib QtCore4.lib QtGui4.lib QtXml4.lib QtSql4.lib QtNetwork4.lib QtWebKit4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Glauca.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\Glauca.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\Glauca.lib" /MACHINE:X86 Release\Glauca.res
+         Release\cookieJar.obj
+         Release\qrc_glauca.obj
+         Release\moc_cookieJar.obj
+         Release\moc_GlaucaBookmarkService.obj
+         Release\moc_GlaucaDetailListWidget.obj
+         Release\moc_GlaucaDocks.obj
+         Release\moc_GlaucaDownloadService.obj
+         Release\moc_GlaucaDropInDialog.obj
+         Release\moc_GlaucaHistoryService.obj
+         Release\moc_GlaucaIconService.obj
+         Release\moc_GlaucaQuickPanel.obj
+         Release\moc_GlaucaSettings.obj
+         Release\moc_GlaucaTabAddon.obj
+         Release\moc_GlaucaTabs.obj
+         Release\moc_GlaucaTabWidget.obj
+         Release\moc_GlaucaUrlAction.obj
+         Release\moc_GlaucaWebTab.obj
+         Release\moc_GlaucaWebView.obj
+         Release\moc_locationBar.obj
+         Release\moc_MainWindow.obj
+         Release\moc_urlAutoFiller.obj
+         Release\GlaucaBookmarkService.obj
+         Release\GlaucaDetailListWidget.obj
+         Release\GlaucaDocks.obj
+         Release\GlaucaDownloadService.obj
+         Release\GlaucaDropInDialog.obj
+         Release\GlaucaHistoryService.obj
+         Release\GlaucaIconService.obj
+         Release\GlaucaPlugins.obj
+         Release\GlaucaQuickPanel.obj
+         Release\GlaucaServices.obj
+         Release\GlaucaSettings.obj
+         Release\GlaucaTabAddon.obj
+         Release\GlaucaTabPage.obj
+         Release\GlaucaTabs.obj
+         Release\GlaucaTabWidget.obj
+         Release\GlaucaUrlAction.obj
+         Release\GlaucaWebTab.obj
+         Release\GlaucaWebView.obj
+         Release\GlaucaWikiEditor.obj
+         Release\GlaucaXMLService.obj
+         Release\locationBar.obj
+         Release\main.obj
+         Release\MainWindow.obj
+         Release\qtwin.obj
+         Release\urlAutoFiller.obj
+         Glauca.vcxproj -> C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\Glauca.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\\Glauca.exe;#1" /manifest Release\Glauca.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Glauca.unsuccessfulbuild".
+         Touching "Release\Glauca.lastbuildstate".
+     1>Done Building Project "C:\Users\superx\Documents\Visual Studio 2010\Projects\Glauca\Glauca\Glauca.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:50.87

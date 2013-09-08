@@ -1,0 +1,37 @@
+﻿Build started 2011/6/5 11:21:54.
+     1>Project "c:\Users\superx\documents\visual studio 2010\Projects\Glauca\Glauca\Glauca.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Glauca.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing glauca.h...
+         Uic'ing glauca.ui...
+         Rcc'ing glauca.qrc...
+     1>RCC : warning : No resources in 'c:\Users\superx\documents\visual studio 2010\Projects\Glauca\Glauca\glauca.qrc'.
+         
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IE:\Qt\4.7.0\include /I.\GeneratedFiles\Debug /IE:\Qt\4.7.0\include\qtmain /IE:\Qt\4.7.0\include\QtCore /IE:\Qt\4.7.0\include\QtGui /IE:\Qt\4.7.0\include\QtXml /IE:\Qt\4.7.0\include\QtSql /IE:\Qt\4.7.0\include\QtNetwork /IE:\Qt\4.7.0\include\QtWebKit /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_WEBKIT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_glauca.cpp glauca.cpp main.cpp
+         moc_glauca.cpp
+         glauca.cpp
+         main.cpp
+         Generating Code...
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IE:\Qt\4.7.0\include /I.\GeneratedFiles\Debug /IE:\Qt\4.7.0\include\qtmain /IE:\Qt\4.7.0\include\QtCore /IE:\Qt\4.7.0\include\QtGui /IE:\Qt\4.7.0\include\QtXml /IE:\Qt\4.7.0\include\QtSql /IE:\Qt\4.7.0\include\QtNetwork /IE:\Qt\4.7.0\include\QtWebKit /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_WEBKIT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_glauca.cpp
+         qrc_glauca.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Glauca.res" Glauca.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\superx\documents\visual studio 2010\Projects\Glauca\\Glauca.exe" /NOLOGO /LIBPATH:E:\Qt\4.7.0\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtXmld4.lib QtSqld4.lib QtNetworkd4.lib QtWebKitd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Glauca.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\superx\documents\visual studio 2010\Projects\Glauca\Glauca.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\superx\documents\visual studio 2010\Projects\Glauca\Glauca.lib" /MACHINE:X86 Debug\Glauca.res
+         Debug\moc_glauca.obj
+         Debug\qrc_glauca.obj
+         Debug\glauca.obj
+         Debug\main.obj
+         Glauca.vcxproj -> c:\users\superx\documents\visual studio 2010\Projects\Glauca\Glauca.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\superx\documents\visual studio 2010\Projects\Glauca\\Glauca.exe;#1" /manifest Debug\Glauca.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Glauca.unsuccessfulbuild".
+         Touching "Debug\Glauca.lastbuildstate".
+     1>Done Building Project "c:\Users\superx\documents\visual studio 2010\Projects\Glauca\Glauca\Glauca.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.35

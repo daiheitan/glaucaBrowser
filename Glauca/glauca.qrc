@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="jquery.min.js">jquery.min.js</file>
+        <file alias="Glauca.qss">Glauca.qss</file>
+        <file alias="Forms/settingWinStack.ui">Forms/settingWinStack.ui</file>
+        <file alias="close-button.png">resources/close-button.png</file>
+        <file alias="max-button.png">resources/max-button.png</file>
+        <file alias="min-button.png">resources/min-button.png</file>
+        <file alias="max-al-button.png">resources/max-button-al.png</file>
+    </qresource>
+</RCC>
